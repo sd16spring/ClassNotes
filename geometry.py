@@ -145,6 +145,7 @@ class Rect(object):
         >>> Rect(10, 20, 100, 200).area()
         16200
         """
+        pass
 
     def bbox(self):
         """Return this shape's bounding box. This is the smallest practically-computable rectangle that contains all
