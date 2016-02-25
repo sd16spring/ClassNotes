@@ -8,8 +8,11 @@ class Line(object):
         pass
 
     def __repr__(self):
-        """Examples:
-        >>> Line(10, 20, 100, 200)
+        """Python's `print` statement calls this method. It should return a string.
+
+        Examples:
+        >>> line = Line(10, 20, 100, 200)
+        >>> print line
         Line(10, 20, 100, 200)
         """
         pass
@@ -100,9 +103,10 @@ class Rect(object):
     def __init__(self, x0, y0, x1, y1):
         pass
 
-    def __repr__(self):
+    def __str__(self):
         """Examples:
-        >>> Rect(10, 20, 100, 200)
+        >>> rect = Rect(10, 20, 100, 200)
+        >>> print rect
         Rect(10, 20, 100, 200)
         """
         pass
