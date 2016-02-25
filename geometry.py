@@ -150,7 +150,7 @@ class Rect(object):
         """Return this shape's bounding box. This is the smallest practically-computable rectangle that contains all
         the points in this shape's interior. For a rectangle, its bounding box is itself. The bounding box is a
         fundamental graphics concept. The Going Beyond exercise illustrates one way this method is helpful."""
-        pass
+        return self
 
     def contains_pt(self, x0, y0):
         """Examples:
