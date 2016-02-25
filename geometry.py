@@ -18,7 +18,14 @@ class Line(object):
         pass
 
     def top(self):
-        """Examples:
+        """Return the smallest y value.
+
+        This is the *opposite* of the convention in math. It's the standard convention in many computer window
+        systems and 2D computer graphics systems -- probably because Western writing systems, except boustrophedon
+        Greek and Irish runes, are written from left to right (x increases to the right) and top to bottom (y
+        increases towards the ground).
+
+        Examples:
         >>> Line(10, 20, 100, 200).top()
         20
         >>> Line(100, 200, 10, 20).top()
@@ -27,7 +34,11 @@ class Line(object):
         pass
 
     def left(self):
-        """Examples:
+        """The smallest x value.
+
+        Whew.
+
+        Examples:
         >>> Line(10, 20, 100, 200).left()
         10
         >>> Line(100, 200, 10, 20).left()
