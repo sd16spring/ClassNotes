@@ -5,7 +5,7 @@ SoftDes Spring 2016 day 11 in-class exercise: Going Beyond #1
 from geometry import Rect
 
 
-class Circle:
+class Circle(object):
     def __init__(self, x, y, r):
         pass
 
